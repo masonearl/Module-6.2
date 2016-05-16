@@ -26,7 +26,7 @@ func checkForNil() {
     guard let movie = mason.favMovie else {
         return
     }
-    print("My favorite movie  is \(movie)")
+    print("My favorite movie is \(movie)")
 }
 
 checkForNil()
