@@ -1,6 +1,6 @@
 //
-//  WelcomeViewController.swift
-//  ViewsAndStoryboard2
+//  InterestsViewController.swift
+//  AboutMe2
 //
 //  Created by Mason Earl on 5/16/16.
 //  Copyright © 2016 Mason Earl. All rights reserved.
@@ -8,23 +8,12 @@
 
 import UIKit
 
-class WelcomeViewController: UIViewController {
-    
-    @IBOutlet weak var welcomeLabel: UILabel! 
-    
-    var name: String?
+class InterestsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        guard let nombre = name else {
-            welcomeLabel.text = "Sign in before entry."
-            return
-        }
-        welcomeLabel.text = "\(nombre), welcome to the party!"
 
-        
-        // welcomeLabel.text = "Welcome to the party, \(name ?? "")!"
-        
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
