@@ -33,7 +33,13 @@ class FindMeViewController: UIViewController {
             UIApplication.sharedApplication().openURL(url2)
     }
 }
+    
 
+    @IBAction func githubButtonTouchUpInside(sender: AnyObject) {
+        if let url3 = NSURL(string: "https://github.com/earlclyde"){
+            UIApplication.sharedApplication().openURL(url3)
+        }
+    }
 
     /*
     // MARK: - Navigation

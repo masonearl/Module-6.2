@@ -49,7 +49,7 @@ class PartyViewController: UIViewController {
  override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
     if segue.identifier == "toWelcomeSegue" {
         let welcomeViewController = segue.destinationViewController as? WelcomeViewController
-        let name = nameTextField.tebxt ?? ""
+        let name = nameTextField.text ?? ""
         welcomeViewController?.name = name
     } else if segue.identifier == "buttonOneSegue" {
         let colorVC = segue.destinationViewController as? ColorViewController
